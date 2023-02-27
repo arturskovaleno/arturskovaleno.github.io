@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  background: rgb(39, 39, 37);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: rgb(253, 253, 253);
+  line-height: 1.6;
+  }
+
+  *,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+              /*Container*/
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 50px;
+
+}
+                /*Headertext*/
+
+.aboutme {
+  margin:0;
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+  text-orientation: upright;
+  
+  font-size: 20px;
+  font-weight: 350;
+  vertical-align: baseline;
+}

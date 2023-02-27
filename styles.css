@@ -3,7 +3,7 @@ body {
     background: rgb(39, 39, 37);
     font-family: 'Montserrat', sans-serif;
     font-size: 15px;
-    color: grey;
+    color: rgb(253, 253, 253);
     line-height: 1.6;
 }
 
@@ -163,18 +163,20 @@ h1, h2, h3, h4, h5,h6 {
 
 .slider {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-top: 20px;
 }
 
 .slider__item {
     width: 24px;
     padding: 20px 0;
 
-    border-top: 2px solid aliceblue;
+    border-top: 3px solid aliceblue;
 
     font: 18px;
     color: aliceblue;
     text-transform: uppercase;
+
 
 
 }
